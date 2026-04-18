@@ -57,11 +57,10 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/manary-quran-reciter-and-verse-identification.git
+git clone https://github.com/lamaalekresh9/manary-quran-reciter-and-verse-identification.git
 cd manary-quran-reciter-and-verse-identification
 ---
-
-Install dependencies:
+2. Install dependencies:
 pip install numpy pandas librosa scikit-learn
 ---
 
