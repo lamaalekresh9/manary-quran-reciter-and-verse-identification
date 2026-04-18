@@ -2,6 +2,8 @@
 
 Manary is an AI-powered system that analyzes Quran recitation audio to identify the reciter, detect the corresponding Surah and Ayah, and provide Tafsir (verse explanation). The system integrates speech processing, machine learning, and external APIs to deliver an end-to-end intelligent pipeline.
 
+---
+
 ## 🎯 Features
 
 - **Reciter Identification**  
@@ -19,7 +21,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - **End-to-End Pipeline**  
   Audio → Preprocessing → Feature Extraction → Reciter → Verse → Tafsir
 
-
+---
 
 ## 📊 Dataset
 
@@ -37,7 +39,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - **Text Dataset**
   - Quran dataset (CSV format) with Surah and Ayah information  
 
-
+---
 
 ## 🛠️ Technologies Used
 
@@ -49,7 +51,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - Quran Cloud API / Groq API — Tafsir retrieval  
 - NumPy / Pandas — Data processing  
 
-
+---
 
 ## 📦 Installation
 
@@ -58,9 +60,12 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 git clone https://github.com/YOUR_USERNAME/manary-quran-reciter-and-verse-identification.git
 cd manary-quran-reciter-and-verse-identification
 
-🚀 Usage
-Open the notebook:
+Install dependencies:
+pip install numpy pandas librosa scikit-learn
+
+Install dependencies:
 notebook/Manary_labeled_final.ipynb
+
 Run all cells sequentially
 Provide an audio input
 The system will output:
@@ -68,6 +73,7 @@ Reciter name
 Surah
 Ayah
 Tafsir explanation
+
 🧠 Methodology
 1. Audio Preprocessing
 Convert to mono
@@ -89,6 +95,7 @@ Enhances interpretability and user understanding
 Accuracy, Precision, Recall, F1-score
 Confusion matrix
 Retrieval performance
+
 ⚠️ Limitations
 Small dataset (may lead to overfitting)
 Audio quality differences introduce noise
@@ -96,9 +103,10 @@ ASR errors (e.g., similar phrases like Bismillah) affect verse matching
 📌 Notes
 Large files are handled using Git LFS
 Notebook preview may not render on GitHub but works in Colab/Jupyter
-👩‍💻 Author
 
-Lama Bin Ekresh
+Authors
+Lama Binekresh
 Yara Altwajari
 Norah Aljasser
-Prince Sultan University 
+
+Prince Sultan University
