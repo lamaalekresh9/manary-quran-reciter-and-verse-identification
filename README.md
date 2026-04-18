@@ -2,7 +2,6 @@
 
 Manary is an AI-powered system that analyzes Quran recitation audio to identify the reciter, detect the corresponding Surah and Ayah, and provide Tafsir (verse explanation). The system integrates speech processing, machine learning, and external APIs to deliver an end-to-end intelligent pipeline.
 
----
 
 ## 🎯 Features
 
@@ -21,7 +20,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - **End-to-End Pipeline**  
   Audio → Preprocessing → Feature Extraction → Reciter → Verse → Tafsir
 
----
+
 
 ## 📊 Dataset
 
@@ -39,7 +38,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - **Text Dataset**
   - Quran dataset (CSV format) with Surah and Ayah information  
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -51,7 +50,7 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 - Quran Cloud API / Groq API — Tafsir retrieval  
 - NumPy / Pandas — Data processing  
 
----
+
 
 ## 📦 Installation
 
