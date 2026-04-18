@@ -120,17 +120,6 @@ Manary is an AI-powered system that analyzes Quran recitation audio to identify 
 git clone https://github.com/lamaalekresh9/manary-quran-reciter-and-verse-identification.git
 cd manary-quran-reciter-and-verse-identification
 ---
-## 👩‍💻 Authors
-
-- Lama Binekresh  
-- Yara Altwajari  
-- Norah Aljasser  
-
-Prince Sultan University
-
-Authors
-Lama Binekresh
-Yara Altwajari
 Norah Aljasser
 
 Prince Sultan University
